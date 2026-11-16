@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8908B65B4495CE40BE1BAC49 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C981AF64C5A9B3B469266E7 /* AppEnvironment.swift */; };
+		D4B37E912171A749B711C4D1 /* OrpheonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3855CE7879F429B26007E5 /* OrpheonApp.swift */; };
+		4BC1BAA6C6D6C035EE913E6A /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D61035A4F168A9B524589 /* Route.swift */; };
+		CE1F711E09C0D59A6D10FF1A /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CACABF6DDF78F6435261BFF /* JSON.swift */; };
+		8CEABCEAFF9F888A5CC58DF5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D6A138ECAC569DB6A5356 /* Models.swift */; };
+		5D9647E52226810C069990E1 /* LyricsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44115AA27987D24E6D018A /* LyricsService.swift */; };
+		47AB5790E834540B3FA77932 /* ConnectAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C84EC6DAF4DD4A4CF880301 /* ConnectAPI.swift */; };
+		EA1CB22102EC2A40623EC02D /* LocalLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D8D625EB9676074D7867C /* LocalLibrary.swift */; };
+		26C8406B339B21651219DE63 /* LocalPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51048411B92A28F45AD1A2B /* LocalPlayer.swift */; };
+		5BAC7D32DB4039DA984F2119 /* PlaybackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E2EB28CE2ED14A59FA3348 /* PlaybackManager.swift */; };
+		8392072EB4A3C1F734EBA8B5 /* RadioBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD873845CF4DA86774BCDFD0 /* RadioBrowser.swift */; };
+		3797B426286A16E90F6E16E0 /* Gql.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EA9F892134133F48CB7E3 /* Gql.swift */; };
+		01E7CCBE97FACA2BD89759E1 /* Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA88B1846C3EBF0F918395 /* Mappers.swift */; };
+		157CE72FE972CFA37403F847 /* SpotifyBrowse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AF5E4D4ADF5F8D3AC796A3 /* SpotifyBrowse.swift */; };
+		FC60745165BAE6405CCC2E18 /* SpotifyHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F985523E58298A458263E6B /* SpotifyHTTP.swift */; };
+		732BE5B0B32479D00AAE087F /* SpotifyLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2F31D9DF942FC021281A3 /* SpotifyLibrary.swift */; };
+		51D0B9370C6648E073314C32 /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF16C6D313BAA616C5A0A82 /* SpotifyService.swift */; };
+		590BA3CA1DD9DF123368FC95 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221089B4386B4BB4465AB6F8 /* Storage.swift */; };
+		EC35204D7E02BF56429D6CFF /* TokenBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF280207EAFCFFCCDC002EB /* TokenBridge.swift */; };
+		1FCA674134A2A7F57DD69911 /* ArtistViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3564799EE4070DE16214FF3C /* ArtistViews.swift */; };
+		0522B6B2CF34926EAB27455F /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29937A648CD2580D9C7EB1C5 /* Components.swift */; };
+		9311AD76E2DA00004170C7EB /* DetailViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6890A59C10B61B73584C273B /* DetailViews.swift */; };
+		E4E95AE1BB522B51E8D644B2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241596CD65242E9E519190A8 /* HomeView.swift */; };
+		ED0A7D4E3B4F5796BDAD4CAC /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADE8E20A28EACC3CC233A61 /* LibraryView.swift */; };
+		FC4A3193A68828F1FDE849CB /* LocalFilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC135919DFF54DF2CB04C8 /* LocalFilesView.swift */; };
+		69D72D037239D317EC04D5E1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D4585FDE3123C42EA047A /* LoginView.swift */; };
+		8F01F31BE912E99A3105A214 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B90E1A76CF6DDF022C2DCD5 /* PlayerView.swift */; };
+		B9AF8797FC239C7B7B56C2C9 /* PodcastViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED70E162C1C53366451453 /* PodcastViews.swift */; };
+		098CEB021FC7D1F5E9FFBD54 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E982DC59CECD26D7D0B1D30C /* RadioView.swift */; };
+		98167194B6347DA21497EC2E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7CD0A01B95BD88EEAF6658 /* RootView.swift */; };
+		9F0EEDFB139C07888B4BBD34 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4984974BF27964A9FB67B /* SearchView.swift */; };
+		B197DAEACA50E0B6C504F2FD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8827619823F99332201214 /* SettingsView.swift */; };
+		0028D381B521101EFA628657 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29367FE40F6DF3D21BDD5BA6 /* Sheets.swift */; };
+		8BB52079A8459430CC97DB7E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35C85C856EAA64F8749B78 /* Theme.swift */; };
+		97E3D7F2239EECF7BA8CAE4E /* gql-ops.json in Resources */ = {isa = PBXBuildFile; fileRef = 78197E11EC05BE33B85E1D25 /* gql-ops.json */; };
+		88894F09A289E78A3422FC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916E20BBABFDEEC3E7628E29 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5BF48AA40CAD7891EB709FC /* Orpheon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orpheon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC637901ACFE841FF5877B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C981AF64C5A9B3B469266E7 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		EE3855CE7879F429B26007E5 /* OrpheonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrpheonApp.swift; sourceTree = "<group>"; };
+		A87D61035A4F168A9B524589 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		1CACABF6DDF78F6435261BFF /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		143D6A138ECAC569DB6A5356 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EE44115AA27987D24E6D018A /* LyricsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsService.swift; sourceTree = "<group>"; };
+		3C84EC6DAF4DD4A4CF880301 /* ConnectAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectAPI.swift; sourceTree = "<group>"; };
+		A36D8D625EB9676074D7867C /* LocalLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLibrary.swift; sourceTree = "<group>"; };
+		D51048411B92A28F45AD1A2B /* LocalPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPlayer.swift; sourceTree = "<group>"; };
+		38E2EB28CE2ED14A59FA3348 /* PlaybackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackManager.swift; sourceTree = "<group>"; };
+		FD873845CF4DA86774BCDFD0 /* RadioBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioBrowser.swift; sourceTree = "<group>"; };
+		D09EA9F892134133F48CB7E3 /* Gql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gql.swift; sourceTree = "<group>"; };
+		32FA88B1846C3EBF0F918395 /* Mappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappers.swift; sourceTree = "<group>"; };
+		F3AF5E4D4ADF5F8D3AC796A3 /* SpotifyBrowse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyBrowse.swift; sourceTree = "<group>"; };
+		1F985523E58298A458263E6B /* SpotifyHTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyHTTP.swift; sourceTree = "<group>"; };
+		F0E2F31D9DF942FC021281A3 /* SpotifyLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLibrary.swift; sourceTree = "<group>"; };
+		9BF16C6D313BAA616C5A0A82 /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyService.swift; sourceTree = "<group>"; };
+		221089B4386B4BB4465AB6F8 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		0BF280207EAFCFFCCDC002EB /* TokenBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenBridge.swift; sourceTree = "<group>"; };
+		3564799EE4070DE16214FF3C /* ArtistViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViews.swift; sourceTree = "<group>"; };
+		29937A648CD2580D9C7EB1C5 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		6890A59C10B61B73584C273B /* DetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViews.swift; sourceTree = "<group>"; };
+		241596CD65242E9E519190A8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CADE8E20A28EACC3CC233A61 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		F7EC135919DFF54DF2CB04C8 /* LocalFilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFilesView.swift; sourceTree = "<group>"; };
+		567D4585FDE3123C42EA047A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1B90E1A76CF6DDF022C2DCD5 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		9CED70E162C1C53366451453 /* PodcastViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViews.swift; sourceTree = "<group>"; };
+		E982DC59CECD26D7D0B1D30C /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		AD7CD0A01B95BD88EEAF6658 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F7B4984974BF27964A9FB67B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		EA8827619823F99332201214 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		29367FE40F6DF3D21BDD5BA6 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		9E35C85C856EAA64F8749B78 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		78197E11EC05BE33B85E1D25 /* gql-ops.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "gql-ops.json"; sourceTree = "<group>"; };
+		916E20BBABFDEEC3E7628E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8594C83D82D703505DFABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2772EB5676ED2B691193947 = {
+			isa = PBXGroup;
+			children = (
+				39B1ACF53B9E9A193F4D7C8F /* Orpheon */,
+				2116D6AA12F4BF2842BA267B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2116D6AA12F4BF2842BA267B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF48AA40CAD7891EB709FC /* Orpheon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39B1ACF53B9E9A193F4D7C8F /* Orpheon */ = {
+			isa = PBXGroup;
+			children = (
+				20BA7B16CB37BC685CDCA053 /* App */,
+				1DC17858B7424F81CE80CF00 /* Core */,
+				EE3FD732FBE72BE7FD8119C1 /* Lyrics */,
+				29489C93A5DF8A7E6B41FE3B /* Playback */,
+				93BBAA9D9F09BCBA50CEA886 /* Radio */,
+				5D07F264F2F53337BB0819E3 /* Resources */,
+				F6852C96BA157ED51F67C121 /* Spotify */,
+				B4850F69884D1BEDA7E9ECAF /* UI */,
+				CC637901ACFE841FF5877B6C /* Info.plist */,
+			);
+			path = Orpheon;
+			sourceTree = "<group>";
+		};
+		20BA7B16CB37BC685CDCA053 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7C981AF64C5A9B3B469266E7 /* AppEnvironment.swift */,
+				EE3855CE7879F429B26007E5 /* OrpheonApp.swift */,
+				A87D61035A4F168A9B524589 /* Route.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1DC17858B7424F81CE80CF00 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1CACABF6DDF78F6435261BFF /* JSON.swift */,
+				143D6A138ECAC569DB6A5356 /* Models.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EE3FD732FBE72BE7FD8119C1 /* Lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				EE44115AA27987D24E6D018A /* LyricsService.swift */,
+			);
+			path = Lyrics;
+			sourceTree = "<group>";
+		};
+		29489C93A5DF8A7E6B41FE3B /* Playback */ = {
+			isa = PBXGroup;
+			children = (
+				3C84EC6DAF4DD4A4CF880301 /* ConnectAPI.swift */,
+				A36D8D625EB9676074D7867C /* LocalLibrary.swift */,
+				D51048411B92A28F45AD1A2B /* LocalPlayer.swift */,
+				38E2EB28CE2ED14A59FA3348 /* PlaybackManager.swift */,
+			);
+			path = Playback;
+			sourceTree = "<group>";
+		};
+		93BBAA9D9F09BCBA50CEA886 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				FD873845CF4DA86774BCDFD0 /* RadioBrowser.swift */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		5D07F264F2F53337BB0819E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				916E20BBABFDEEC3E7628E29 /* Assets.xcassets */,
+				78197E11EC05BE33B85E1D25 /* gql-ops.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F6852C96BA157ED51F67C121 /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				D09EA9F892134133F48CB7E3 /* Gql.swift */,
+				32FA88B1846C3EBF0F918395 /* Mappers.swift */,
+				F3AF5E4D4ADF5F8D3AC796A3 /* SpotifyBrowse.swift */,
+				1F985523E58298A458263E6B /* SpotifyHTTP.swift */,
+				F0E2F31D9DF942FC021281A3 /* SpotifyLibrary.swift */,
+				9BF16C6D313BAA616C5A0A82 /* SpotifyService.swift */,
+				221089B4386B4BB4465AB6F8 /* Storage.swift */,
+				0BF280207EAFCFFCCDC002EB /* TokenBridge.swift */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		B4850F69884D1BEDA7E9ECAF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3564799EE4070DE16214FF3C /* ArtistViews.swift */,
+				29937A648CD2580D9C7EB1C5 /* Components.swift */,
+				6890A59C10B61B73584C273B /* DetailViews.swift */,
+				241596CD65242E9E519190A8 /* HomeView.swift */,
+				CADE8E20A28EACC3CC233A61 /* LibraryView.swift */,
+				F7EC135919DFF54DF2CB04C8 /* LocalFilesView.swift */,
+				567D4585FDE3123C42EA047A /* LoginView.swift */,
+				1B90E1A76CF6DDF022C2DCD5 /* PlayerView.swift */,
+				9CED70E162C1C53366451453 /* PodcastViews.swift */,
+				E982DC59CECD26D7D0B1D30C /* RadioView.swift */,
+				AD7CD0A01B95BD88EEAF6658 /* RootView.swift */,
+				F7B4984974BF27964A9FB67B /* SearchView.swift */,
+				EA8827619823F99332201214 /* SettingsView.swift */,
+				29367FE40F6DF3D21BDD5BA6 /* Sheets.swift */,
+				9E35C85C856EAA64F8749B78 /* Theme.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* Orpheon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710E4C902EAB327A675B770E /* Build configuration list for PBXNativeTarget "Orpheon" */;
+			buildPhases = (
+				80DAA310FC779194862C0D32 /* Sources */,
+				EA8594C83D82D703505DFABE /* Frameworks */,
+				16B6DB84760A9CCAF0F0E448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orpheon;
+			productName = Orpheon;
+			productReference = F5BF48AA40CAD7891EB709FC /* Orpheon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AC4D63F12EBBDCB32DFBA89F /* Build configuration list for PBXProject "Orpheon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2772EB5676ED2B691193947;
+			productRefGroup = 2116D6AA12F4BF2842BA267B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* Orpheon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16B6DB84760A9CCAF0F0E448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E3D7F2239EECF7BA8CAE4E /* gql-ops.json in Resources */,
+				88894F09A289E78A3422FC5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80DAA310FC779194862C0D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8908B65B4495CE40BE1BAC49 /* AppEnvironment.swift in Sources */,
+				D4B37E912171A749B711C4D1 /* OrpheonApp.swift in Sources */,
+				4BC1BAA6C6D6C035EE913E6A /* Route.swift in Sources */,
+				CE1F711E09C0D59A6D10FF1A /* JSON.swift in Sources */,
+				8CEABCEAFF9F888A5CC58DF5 /* Models.swift in Sources */,
+				5D9647E52226810C069990E1 /* LyricsService.swift in Sources */,
+				47AB5790E834540B3FA77932 /* ConnectAPI.swift in Sources */,
+				EA1CB22102EC2A40623EC02D /* LocalLibrary.swift in Sources */,
+				26C8406B339B21651219DE63 /* LocalPlayer.swift in Sources */,
+				5BAC7D32DB4039DA984F2119 /* PlaybackManager.swift in Sources */,
+				8392072EB4A3C1F734EBA8B5 /* RadioBrowser.swift in Sources */,
+				3797B426286A16E90F6E16E0 /* Gql.swift in Sources */,
+				01E7CCBE97FACA2BD89759E1 /* Mappers.swift in Sources */,
+				157CE72FE972CFA37403F847 /* SpotifyBrowse.swift in Sources */,
+				FC60745165BAE6405CCC2E18 /* SpotifyHTTP.swift in Sources */,
+				732BE5B0B32479D00AAE087F /* SpotifyLibrary.swift in Sources */,
+				51D0B9370C6648E073314C32 /* SpotifyService.swift in Sources */,
+				590BA3CA1DD9DF123368FC95 /* Storage.swift in Sources */,
+				EC35204D7E02BF56429D6CFF /* TokenBridge.swift in Sources */,
+				1FCA674134A2A7F57DD69911 /* ArtistViews.swift in Sources */,
+				0522B6B2CF34926EAB27455F /* Components.swift in Sources */,
+				9311AD76E2DA00004170C7EB /* DetailViews.swift in Sources */,
+				E4E95AE1BB522B51E8D644B2 /* HomeView.swift in Sources */,
+				ED0A7D4E3B4F5796BDAD4CAC /* LibraryView.swift in Sources */,
+				FC4A3193A68828F1FDE849CB /* LocalFilesView.swift in Sources */,
+				69D72D037239D317EC04D5E1 /* LoginView.swift in Sources */,
+				8F01F31BE912E99A3105A214 /* PlayerView.swift in Sources */,
+				B9AF8797FC239C7B7B56C2C9 /* PodcastViews.swift in Sources */,
+				098CEB021FC7D1F5E9FFBD54 /* RadioView.swift in Sources */,
+				98167194B6347DA21497EC2E /* RootView.swift in Sources */,
+				9F0EEDFB139C07888B4BBD34 /* SearchView.swift in Sources */,
+				B197DAEACA50E0B6C504F2FD /* SettingsView.swift in Sources */,
+				0028D381B521101EFA628657 /* Sheets.swift in Sources */,
+				8BB52079A8459430CC97DB7E /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DFF4F54E01360C985A107DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F933D77A9C901C5D51DFD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		497CE359E62989D4957947D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Orpheon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.orpheon.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC44B42E329CFABF13136126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Orpheon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.orpheon.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4D63F12EBBDCB32DFBA89F /* Build configuration list for PBXProject "Orpheon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFF4F54E01360C985A107DF /* Debug */,
+				5F933D77A9C901C5D51DFD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710E4C902EAB327A675B770E /* Build configuration list for PBXNativeTarget "Orpheon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497CE359E62989D4957947D3 /* Debug */,
+				EC44B42E329CFABF13136126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
