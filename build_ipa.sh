@@ -6,8 +6,8 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 xcodebuild \
-  -project Orpheon.xcodeproj \
-  -scheme Orpheon \
+  -project LiteSpotify.xcodeproj \
+  -scheme LiteSpotify \
   -configuration Release \
   -sdk iphoneos \
   -destination 'generic/platform=iOS' \
